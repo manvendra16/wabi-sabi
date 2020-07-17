@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: arial;
+}
+body{
+	font-size: 16px;
+	overflow-x: hidden;
+	color: black;
+}
+.clearflix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+.instagram{
+	height: 30px;
+	width: auto;
+	float: left;
+	margin-top: 48.4px;
+}
+#name{
+	float: left;
+	margin-left: 0.5px;
+	margin-top: 60px;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 540;
+}
+.bar{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.cart{
+	height: 25px;
+	margin-right: 10px;
+}
+.navbar{
+	float: right;
+	margin-top: 48px;
+}
+.navbar li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 50px;
+	text-transform: uppercase;
+}
+.navbar li a{
+	color: #000;
+	text-decoration: none;
+	font-size: 90%;
+}
+.navbar li a:hover{
+	color: lightslategrey;
+}
+.mobile-icon{
+	display: none;
+}
+
+/*////////// Responsive Queries //////////*/
+@media only screen and (max-width: 768px){
+	.navbar{
+		display: none;
+	}
+	.mobile-icon{
+		display: inline-block;
+		float: right;
+		margin-top: 55.3px;
+		margin-right: 10px;
+	}
+	.navbar{float: left;}
+	.navbar li{
+		display: block;
+		margin-top: 10px;
+	}
+}
+#photos{
+	display: inline-block;
+	margin-top: 5%;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.column{
+	margin: 5%;
+}
+.column img {
+  display: inline-block;
+  margin-top: 8px;
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-bottom: 7px;
+  vertical-align: middle;
+  max-width: 23.5%;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    max-width: 100%;
+  }
+  .column img{padding-right: 0px; padding-left: 0px;}
+}
+#main-footer{
+	float: right;
+	font-size: 12px;
+	color: lightgrey;
+}
