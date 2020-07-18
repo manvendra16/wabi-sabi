@@ -121,6 +121,10 @@ body{
 }
 
 @media screen and (max-width: 600px) {
+  .about-wabi-sabi{
+  	margin-left: 10%;
+  	margin-right: 10%;
+  }
   .my-photo {
     max-width: 90%;
     margin-left: 5%;
