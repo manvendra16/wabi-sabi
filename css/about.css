@@ -88,7 +88,7 @@ body{
 	margin-top: 5%;
 	margin-right: 10%;
 	border-radius: 20px;
-	height: 75vh;
+	height: 100vh;
 	width: 80%;
 }
 .about-wabi-sabi h3{
@@ -100,6 +100,10 @@ body{
 .my-photo{
 	float: left;
 	margin-right: 4%;
+	max-height: 280px;
+	width: auto;
+	margin-right: 4%;
+	margin-bottom: 2%;
 }
 .about-wabi-sabi p{
 	font-size: 16px;
@@ -107,7 +111,6 @@ body{
 	font-weight: 100;
 	text-transform: uppercase;
 	margin-right: 4%;
-	margin-bottom: -2%;
 }
 .about-wabi-sabi p a{
 	text-decoration: none;
@@ -116,6 +119,20 @@ body{
 .about-wabi-sabi p a:hover{
 	color: red;
 }
+
+@media screen and (max-width: 600px) {
+  .my-photo {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .about-wabi-sabi h3{
+  	font-size: 100%;
+  }
+  .about-wabi-sabi p{
+  	margin-left: 5%;
+  	font-size: 90%;
+  }
 #main-footer{
 	margin-top: 2px;
 	float: right;
