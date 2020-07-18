@@ -113,6 +113,7 @@ body{
 	text-decoration: none;
 	color: grey;
 }
+.about-wabi-sabi p a:hover{color: red;}
 #main-footer{
 	margin-top: 2px;
 	float: right;
