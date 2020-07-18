@@ -1,0 +1,114 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: arial;
+	/*background-color: black;*/
+}
+body{
+	font-size: 16px;
+	overflow-x: hidden;
+	color: black;
+}
+.clearflix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+.instagram{
+	height: 30px;
+	width: auto;
+	float: left;
+	margin-top: 48.4px;
+}
+#name{
+	float: left;
+	margin-left: 0.5px;
+	margin-top: 60px;
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: 540;
+}
+.bar{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+.cart{
+	height: 25px;
+	margin-right: 10px;
+}
+.navbar{
+	float: right;
+	margin-top: 48px;
+}
+.navbar li{
+	display: inline-block;
+	list-style: none;
+	margin-left: 50px;
+	text-transform: uppercase;
+}
+.navbar li a{
+	color: black;
+	text-decoration: none;
+	font-size: 90%;
+}
+.navbar li a:hover{
+	color: lightslategrey;
+}
+.mobile-icon{
+	display: none;
+}
+
+/*////////// Responsive Queries //////////*/
+@media only screen and (max-width: 768px){
+	.navbar{
+		display: none;
+	}
+	.mobile-icon{
+		display: inline-block;
+		float: right;
+		margin-top: 55.3px;
+		margin-right: 10px;
+	}
+	.navbar{float: left;}
+	.navbar li{
+		display: block;
+		margin-top: 10px;
+	}
+}
+#contactMe{
+	display: inline-block;
+	margin-top: 5%;
+	background-color: lightgrey;
+	width: 80%;
+	border-radius: 20px;
+	font-weight: 100;
+	padding: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+h3{
+	font-size: 30px;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+.contact-icons{
+	max-height: 64px;
+	width: auto;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 30px;
+}
+#contactMe img{
+	margin-left: 100px;
+}
+
+#main-footer{
+	margin-top: 20px;
+	float: right;
+	font-size: 12px;
+	color: lightgrey;
+}
